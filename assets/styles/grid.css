@@ -1,0 +1,73 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 1440px;
+}
+p{
+    color: #85859B;
+}
+h1{
+color: #4C5866;
+}
+.button1{
+    background: none;
+    border: none;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #4C5866;
+    padding: 20px;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style-type:none;
+}
+.main{
+    display: grid;
+    background-color: #EBEBEB;
+}
+.part1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+.element1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #4C5866;
+    padding: 20px;
+    text-align:right;
+}
+.logo1{
+    padding-left: 50px;
+}
+.logo2{
+    padding-left: 50px;
+}
+.icon{
+    padding-right: 50px;
+}
